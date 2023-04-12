@@ -1,0 +1,35 @@
+:root {
+    --black-faded: #4D4D4D;
+}
+
+.host--nav {
+    margin: 1rem 0 1rem 1rem;
+}
+
+.host--nav a{
+    text-decoration: none;
+    margin: 0 1rem;
+    color: var(--black-faded);
+
+    font-weight: 600;
+}
+
+.host--nav a.active {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.host--nav a:hover {
+    color: black;
+}
+
+@media (max-width: 500px) {
+    .host--nav{
+        margin: 1rem 0;
+    }
+    
+    .host--nav a {
+        margin: 0 0.5rem;
+        font-size: small;   
+    }
+}

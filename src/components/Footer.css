@@ -1,0 +1,18 @@
+:root {
+    --black-faded: rgb(37, 37, 37);
+}
+
+.footer--main {
+    height: 3rem;
+    width: 100vw;
+    /* text-align: center; */
+    background: var(--black-faded);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer--main span {
+    color: #AAAAAA;
+}

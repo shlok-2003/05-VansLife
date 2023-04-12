@@ -1,0 +1,54 @@
+:root {
+    --black: rgba(0, 0, 0, 1);
+}
+
+header {
+    height: 3rem;
+    width: 100vw;
+
+    display: flex;
+    padding-block: 10px;
+}
+
+header .site--logo {
+    color: var(--black);
+    margin: auto auto auto 1rem;
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 25px;
+}
+
+header a {
+    text-decoration: none;
+    color: #4D4D4D;
+}
+
+header a:hover {
+    color: #161616;
+    text-decoration: underline;
+}
+
+.nav--links {
+    margin: auto 0.5rem auto auto;
+    font-size: 1rem;
+}
+
+.nav--link {
+    margin: 0 1rem;
+    font-weight: 600;
+}
+
+.nav--link-active {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+@media (max-width: 500px) {
+    .site--logo {
+        margin: auto auto auto 2px;
+    }
+    
+    .nav--link {
+        margin: 0 0.5rem;
+    }
+}
