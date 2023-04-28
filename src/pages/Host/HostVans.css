@@ -1,0 +1,72 @@
+.host--vans-link {
+    text-decoration: none;
+}
+
+.host--vans {
+    margin: 0 10rem;
+}
+
+.vans--element {
+    display: flex;
+    background: white;
+    margin: 1rem 1.5rem;
+}
+
+.vans--element > img {
+    height: 4rem;
+    width: 4rem;
+    margin: 1rem 1.5rem;
+}
+
+.vans--element div {
+    margin: 1rem 0;    
+}
+
+.vans--element div > h3 {
+    color: #161616;
+    font-weight: 600;
+}
+
+.vans--element div > h5 {
+    font-weight: 500;
+    color: #4D4D4D;
+}
+
+.host-vans-item-loading {
+    font-size: 1.5rem;
+}
+
+@media (max-width: 1000px) {
+    .host--vans {
+        margin: 0 0;
+    }
+}
+
+.host-van-detail-layout-container {
+    background-color: white;
+    padding: 24px;
+    margin: 30px 26px;
+}
+
+.host-van-detail {
+    display: flex;
+    align-items: center;
+}
+
+.host-van-detail > img {
+    height: 160px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.host-van-detail-info-text > h3 {
+    margin-top: 24px;
+    margin-bottom: 5px;
+    font-size: 26px;
+    font-weight: 700;
+}
+
+.host-van-detail-info-text > h4 {
+    font-size: 20px;
+    margin-block: 0;
+}
